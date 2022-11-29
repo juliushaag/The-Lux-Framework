@@ -1,0 +1,17 @@
+#pragma once
+
+namespace Lux
+{
+
+enum class GraphicsErrorCode
+{
+	FAILED,
+	SUCCESS,
+	OUT_OF_HOST_MEMORY,
+	OUT_OF_DEVICE_MEMORY,
+	INCOMPATIBLE_DRIVER,
+	LAYER_NOT_PRESENT,
+	EXTENSION_NOT_PRESENT
+};
+
+}

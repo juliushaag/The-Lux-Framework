@@ -1,0 +1,9 @@
+[submodule "LuxEngine/lib/glfw"]
+	path = LuxEngine/lib/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "LuxEngine/lib/glm"]
+	path = LuxEngine/lib/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "LuxEngine/lib/fmt"]
+	path = LuxEngine/lib/fmt
+	url = https://github.com/fmtlib/fmt.git
