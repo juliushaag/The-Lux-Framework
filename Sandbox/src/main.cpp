@@ -2,12 +2,22 @@
 
 #include "Core/Application.h"
 
+#include "Core/Libraries.h"
+
 using namespace Lux;
 
 int main()
 {
-    Lux::Application app;
-    std::cout << app.get_string() << std::endl;
+	if(!LoadLibraries())
+		return 1;
 
-    //app.loop();
+	{
+		Lux::Application app;
+
+		app.loop();
+	}
+
+	UnloadLibraries();
+
+	return 0;
 }
